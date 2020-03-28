@@ -1,7 +1,3 @@
-<a aria-label="Repo Size" href="README.md">
-  	<img src="https://github.com/brcaua/doesangue.github.dev/blob/master/computer-vector.svg"></img>
-  </a>
-
 <img src="https://github.com/brcaua/doesangue.github.dev/blob/master/computer-vector.svg" align="center"></img>
 <h1 align="center">Maratona Dev 3</h1>
 <p align="center">Projeto <strong>Doe Sangue</strong> Desenvolvido durante a 3ª Edição da MaratonaDev da Rocketseat</p>
