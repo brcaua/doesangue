@@ -3,7 +3,7 @@ const express = require('express');
 
 const server = express();
 
-// configurando o servidor para apresententar arquivos estáticos
+// configurando o servidor para apresentar arquivos estáticos
 server.use(express.static('../public'));
 
 // configurando a template engine (motor de temas)
