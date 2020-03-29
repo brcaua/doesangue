@@ -1,3 +1,3 @@
-document.querySelector('header button').addEventListener("click", function(){
-    document.querySelector('.form').classList.toggle('hide')
-})
+document.querySelector('header button').addEventListener('click', () => {
+  document.querySelector('.form').classList.toggle('hide');
+});

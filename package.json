@@ -3,18 +3,31 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged":{
+    "*.js":[
+      "eslint --fix",
+      "cross-env CI=true yarn test --bail --findRelatedTests",
+      "git add"
+    ]
+  },
   "dependencies": {
     "axios": "^0.19.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "express": "^4.17.1",
     "jshint": "^2.11.0",
     "nodemon": "^2.0.2",
-    "nunjucks": "^3.2.0",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "nunjucks": "^3.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "husky": "^4.2.3"
   },
   "scripts": {
     "start": "nodemon server.js"
