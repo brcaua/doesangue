@@ -1,4 +1,4 @@
-<img src="https://github.com/brcaua/doesangue.github.dev/blob/master/computer-vector.svg" align="center"></img>
+
 <h1 align="center">DoeSangue</h1>
 <p align="center">Projeto desenvolvido durante a 3ª Edição da MaratonaDev da Rocketseat </p>
 <p align="center">
@@ -27,21 +27,32 @@
 | [PostgreSQL](https://www.postgresql.org/)
 | [Nunjucks](https://mozilla.github.io/nunjucks/)
 
+
+## :crossed_flags: Languages
+   #### :us: English
+   #### :fr: French
+   #### :de: German
+   #### :es: Spanish
+   #### :it: Italian
+
+
 ## 💻 Projeto
 
 O DoeSangue é um projeto para incentivar, encontrar e registrar doadores de sangue, desenvolvido nos dias 17 e 18 de fevereiro de 2020 na MaratonaDev da Rocketseat, cadestre-se e seja um doador de sangue!
 
 
-## Frontend
+## Prototype
 
-#### obs: a página está com zoom de 70%
+:warning: obs: a página está com zoom de 70%
 <img align="center" src="https://github.com/brcaua/doesangue.github.dev/blob/master/image1.png"></img>
-#### obs: a página está com zoom de 80%
+
+
+:warning: obs: a página está com zoom de 80%
 <img align="center" src="https://github.com/brcaua/doesangue.github.dev/blob/master/image2.png"></img>
 
 ## Instructions to use the project
 
-#### Running the project
+####  Running the project
 
     git clone git@github.com/brcaua/howsay.github.dev.git
     cd howsay.github.dev
