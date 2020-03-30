@@ -1,4 +1,8 @@
+<p align="center">
+<img src="https://github.com/brcaua/doesangue.github.dev/blob/master/public/logo.jpeg"></img>
+</p>   
 
+                                                                                                     
 <h1 align="center">DoeSangue</h1>
 <p align="center">Projeto desenvolvido durante a 3ª Edição da MaratonaDev da Rocketseat </p>
 <p align="center">
