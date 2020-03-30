@@ -32,13 +32,6 @@
 | [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 
-## :crossed_flags: Languages
-   #### :us: English
-   #### :fr: French
-   #### :de: German
-   #### :es: Spanish
-   #### :it: Italian
-
 
 ## 💻 Projeto
 
@@ -58,8 +51,8 @@ O DoeSangue é um projeto para incentivar, encontrar e registrar doadores de san
 
 ####  Running the project
 
-    git clone git@github.com/brcaua/howsay.github.dev.git
-    cd howsay.github.dev
+    git clone git@github.com/brcaua/doesangue.github.dev.git
+    cd doesangue.github.dev
     code .
 
 ## :memo: Licença
