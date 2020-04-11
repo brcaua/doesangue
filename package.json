@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src --presets env\""
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -29,9 +32,7 @@
     "babel-preset-env": "^1.7.0",
     "husky": "^4.2.3"
   },
-  "scripts": {
-    "start": "nodemon server.js"
-  },
+
   "keywords": [],
   "author": "brenocaua",
   "license": "ISC"

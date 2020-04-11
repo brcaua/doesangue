@@ -3,7 +3,7 @@ html, body{
   margin: 0;
 }
 h1, h2{
-  color: #000000cc;
+  color: #333333;
 }
 *{
   box-sizing: border-box;
@@ -25,7 +25,7 @@ main h2 span{
   color: #ff4f4f;
 }
 main h2{
-  margin-top: 120px;
+  margin-top: 32px;
 }
 .form h2{
   font-size: 2rem;
@@ -111,7 +111,7 @@ main .donors{
 }
 .blood::before{
   content: "";
-  background-color: #ff4f4f11;
+  background-color: #333333;
   width: 40px;
   height: 40px;
   position: absolute;

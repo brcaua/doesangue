@@ -4,7 +4,7 @@ const express = require('express');
 const server = express();
 
 // configurando o servidor para apresentar arquivos estáticos
-server.use(express.static('../public'));
+server.use(express.static('/src/'));
 
 // configurando a template engine (motor de temas)
 const nunjucks = require('nunjucks');
@@ -35,7 +35,7 @@ const donors = [
 
 // configurando a apresentação da página 💻
 // o método "get" serve para pegar e mandar requisições, como no exemplo abaixo, no qual eu passo um parâmetro "/" e retorno um "res(resposta)" para o servidor
-server.get('/', (req, res) => res.render('index.html', { donors }));
+server.get('/', (req, res) => res.render('/src/index.html', { donors }));
 
 // Iniciando o servidor..
 server.listen(3000, () => {
