@@ -13,7 +13,7 @@ body{
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-family: "spotify-circular";
+  font-family: "Inter";
   background-color: #f9f9f9;
 }
 /* Titles */
@@ -111,7 +111,7 @@ main .donors{
 }
 .blood::before{
   content: "";
-  background-color: #333333;
+  background-color: #da4747;
   width: 40px;
   height: 40px;
   position: absolute;

@@ -4,15 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Doe Sangue</title>
-  <link rel="stylesheet" href="./style.css">
-  <link href="//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="style.css">
 <body>
 
   <!-- Header -->
   <header>
     <img
       class="logo"
-      src="img/logo.jpeg"
+      src="/img/logo.jpeg"
       alt="Imagem de Doe"
     >
     <h2>A sua doação importa</h2>
@@ -27,7 +26,7 @@
   <!-- FORM Section -->
   <section class="form hide">
     <h2>Entre na lista de doadores</h2>
-    <form action="/"></form>
+    <form action="/server.js" method="POST"></form>
       <input
       type="text"
        name="name"
@@ -55,22 +54,12 @@
   <main>
       <h2>Últimos <span>doadores</span></h2>
       <section class="donors">
-              <div class="donor">
-                  <div class="blood">AB+</div>
-                  <p>Breno</p>
-              </div>
-              <div class="donor">
-                <div class="blood">AB-</div>
-                <p>Karl</p>
-            </div>
-            <div class="donor">
-              <div class="blood">AB-</div>
-              <p>Maxwell</p>
-          </div>
-          <div class="donor">
-            <div class="blood">AB-</div>
-            <p>Voeglin</p>
-        </div>
+              {%for donor in donors%}
+                <div class="donor">
+                    <div class="blood">{{donor.blood}}</div>
+                    <p>{{donor.name}}</p>
+                </div>
+              {%endfor%}
       </section>
   </main>
   <!-- END Main -->
@@ -80,8 +69,8 @@
   <!-- END Footer -->
 
   <!-- JS Archives -->
-  <script src="./script.js"></script>
-  <script src="../server.js"></script>
+  <script src="script.js"></script>
+  <script src="server.js"></script>
   <!-- END JS Archives -->
 
 </body>
