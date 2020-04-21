@@ -1,25 +1,23 @@
 <p align="center">
-<img src="https://github.com/brcaua/doesangue.github.dev/blob/master/public/logo.jpeg"></img>
+     <img src="https://github.com/brcaua/doesangue/blob/master/img/logo.jpeg"></img>
 </p>   
-
                                                                                                      
-<h1 align="center">DoeSangue</h1>
+<h1 align="center">Doe Sangue</h1>
 <p align="center">Projeto desenvolvido durante a 3ª Edição da MaratonaDev da Rocketseat </p>
-<p align="center">
-
-<a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
+<p align="center" aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
     <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
-</a>
+    <img src="https://img.shields.io/github/repo-size/brcaua/doesangue"></img>
+    <img src="https://img.shields.io/github/contributors/brcaua/doesangue"></img>
+</p>
 
-   </a>
-    <a aria-label="Completo" href="https://rocketseat.com.br/maratonadev/aulas/3.0?aula=2">
-    <img src="https://img.shields.io/badge/MaratonaDev-done-orange?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
-  </a>
-  
-  <a aria-label="Repo Size" href="README.md">
-  	<img src="https://img.shields.io/github/repo-size/LeoGHz/DoeSangue.svg"></img>
-  </a>
 
+## Pré requisitos
+
+Antes de começar, você deve ter os seguintes requisitos:
+<!--- These are just example requirements. Add, duplicate or remove as required --->
+* Você ter instalado a última versão do `node`
+* Você ter uma máquina `Windows/Linux/Mac`.
+* Você ter instalado o editor de código `VSCode` (não é obrigatório).
 
 ## :rocket: Tecnologias
 
@@ -32,32 +30,40 @@
 | [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 
-
-## 💻 Projeto
+## Projeto
 
 O DoeSangue é um projeto para incentivar, encontrar e registrar doadores de sangue, desenvolvido nos dias 17 e 18 de fevereiro de 2020 na MaratonaDev da Rocketseat, cadestre-se e seja um doador de sangue!
+* Mapa funcional do projeto
 
+     <img src="https://github.com/brcaua/doesangue/blob/master/img/mapa-mental.png"></img>
 
-## Prototype
+* Prototype
 
 :warning: obs: a página está com zoom de 70%
-<img align="center" src="https://github.com/brcaua/doesangue.github.dev/blob/master/image1.png"></img>
+
+<img align="center" src="https://github.com/brcaua/doesangue/blob/master/img/prototype1.png"></img>
 
 
 :warning: obs: a página está com zoom de 80%
-<img align="center" src="https://github.com/brcaua/doesangue.github.dev/blob/master/image2.png"></img>
+
+<img align="center" src="https://github.com/brcaua/doesangue/blob/master/img/prototype2.png"></img>
+
 
 ## Instructions to use the project
 
-####  Running the project
-
-    git clone git@github.com/brcaua/doesangue.github.dev.git
-    cd doesangue.github.dev
-    code .
-
+  ### Running the project
+  Clonando o repositório (Cloning the repository)
+```sh
+  $ git clone git@github.com/brcaua/doesangue.git
+```
+  Abrindo a pasta do projeto (Opening the project folder)
+```
+  $ cd doesangue
+```
+  Iniciando o projeto no VSCode (Opening the project in VSCode)
+```
+  $ code .
+```
 ## :memo: Licença
 
 #### Esse projeto está sob a licença [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
-
-
-#### Clique aqui para entrar no site do projeto: [Doe Sangue](https://brcaua.github.io/doesangue.github.dev/)
