@@ -8,7 +8,7 @@
 </p>
 
 ### ✨ Demo
-<p>
+<p align="center">
   <img src="https://github.com/brcaua/doesangue/blob/master/img/prototype1.png">
 </p>
 
