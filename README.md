@@ -1,23 +1,23 @@
-<p align="center">
-     <img src="https://github.com/brcaua/doesangue/blob/master/img/logo.jpeg"></img>
-</p>   
-                                                                                                     
-<h1 align="center">Doe Sangue</h1>
-<p align="center">Projeto desenvolvido durante a 3ª Edição da MaratonaDev da Rocketseat </p>
+<p align="center"><img src="https://github.com/brcaua/doesangue/blob/master/img/logo.jpeg"></p>
+<h1 align="center"> Doe Sangue</h1>
+<p align="center">Website para doação de sangue</p>
 <p align="center" aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
     <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
     <img src="https://img.shields.io/github/repo-size/brcaua/doesangue"></img>
     <img src="https://img.shields.io/github/contributors/brcaua/doesangue"></img>
 </p>
 
+### ✨ Demo
+<p>
+  <img src="https://github.com/brcaua/doesangue/blob/master/img/prototype1.png">
+</p>
 
-## Pré requisitos
+## :gear: Prerequisites
 
-Antes de começar, você deve ter os seguintes requisitos:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* Você ter instalado a última versão do `node`
-* Você ter uma máquina `Windows/Linux/Mac`.
-* Você ter instalado o editor de código `VSCode` (não é obrigatório).
+- Você ter instalado a última versão do `node`
+- Você ter instalado o `yarn`
+- Você ter uma máquina `Windows/Linux/Mac`.
+- Você ter instalado o editor de código `VSCode` (preferencial).
 
 ## :rocket: Tecnologias
 
@@ -29,41 +29,43 @@ Antes de começar, você deve ter os seguintes requisitos:
 | [PostgreSQL](https://www.postgresql.org/)
 | [Nunjucks](https://mozilla.github.io/nunjucks/)
 
-
-## Projeto
-
-O DoeSangue é um projeto para incentivar, encontrar e registrar doadores de sangue, desenvolvido nos dias 17 e 18 de fevereiro de 2020 na MaratonaDev da Rocketseat, cadestre-se e seja um doador de sangue!
-* Mapa funcional do projeto
-
-     <img src="https://github.com/brcaua/doesangue/blob/master/img/mapa-mental.png"></img>
-
-* Prototype
-
-:warning: obs: a página está com zoom de 70%
-
-<img align="center" src="https://github.com/brcaua/doesangue/blob/master/img/prototype1.png"></img>
+<img src="https://github.com/brcaua/doesangue/blob/master/img/mapa-mental.png"></img>
 
 
-:warning: obs: a página está com zoom de 80%
+## :link: Install
 
-<img align="center" src="https://github.com/brcaua/doesangue/blob/master/img/prototype2.png"></img>
-
-
-## Instructions to use the project
-
-  ### Running the project
-  Clonando o repositório (Cloning the repository)
+Clonando o projeto para um repositório local
 ```sh
-  $ git clone git@github.com/brcaua/doesangue.git
+$ git clone git@github.com/brcaua/doesangue.git
 ```
-  Abrindo a pasta do projeto (Opening the project folder)
+Acessar a pasta do projeto
+```sh
+$ cd doesangue
 ```
-  $ cd doesangue
+Iniciando o servidor
+```sh
+$ yarn start
 ```
-  Iniciando o projeto no VSCode (Opening the project in VSCode)
-```
-  $ code .
-```
-## :memo: Licença
 
-#### Esse projeto está sob a licença [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
+Abrir com Visual Studio Code
+```sh
+$ code .
+```
+
+## Author
+👤 **Breno Cauã**
+* Twitter: [brcaua](https://twitter.com/brcaua)
+* GitHub: [brcaua](https://github.com/brcaua)
+* LinkedIn: [brenocaua](https://linkedin.com/in/brenocaua)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Esse projeto está sob a licença [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
